@@ -6,7 +6,7 @@ function checkPrime(number) {
         return "not prime"
     }
     for (i = 2; i <= number / 2; i++) {
-        else if ((number) % i == 0) {
+        if ((number) % i == 0) {
             return "not prime";
         }
     }
