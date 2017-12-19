@@ -30,17 +30,4 @@ function timesTable(number) {
 }
 
 
-function primeTable(number) {
 
-    var rows = number/10;
-    var cells = 10;
-   document.write("<table border=1>");
-    for (i = 0; i <= rows; i++) {
-        document.write("<tr>");
-        for (j = ; j <= cells; ) {
-            document.write(Math.round(j), "<td>", i + j, "</td>");
-        }
-        document.write("</tr>");
-    }
-    document.write("</table>");
-}
